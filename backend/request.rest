@@ -1,1 +1,23 @@
 GET http://localhost:5000/users
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsIm5hbWUiOiJMdWh1ciBOdWdyb2hvIEEuIiwiZW1haWwiOiJsdWh1ckBnbWFpbC5jb20iLCJpYXQiOjE3MTgyOTE5NjIsImV4cCI6MTcxODI5MTk3N30.BHLL7qnRhVpv1_6KVp-wa83LuHSqa8lucgG9QvQ4hSs
+
+
+
+
+
+###
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email" : "luhur@gmail.com",
+    "password" : "12345"
+}
+
+
+###
+GET http://localhost:5000/token
+
+
+###
+DELETE http://localhost:5000/logout
