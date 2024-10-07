@@ -14,7 +14,7 @@ const Navbar = () => {
       console.log(error);
     }
   }
-  return (
+  return (                     
     <nav className="navbar is-info" role="navigation" aria-label="main navigation">
         <div className="container">
       <div className="navbar-brand ">
